@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #app {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  #auth-container, #notes-container {
+    margin-top: 20px;
+  }
+  
+  .note {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .note.archived {
+    background-color: #f0f0f0;
+  }
+  
+  .note.trashed {
+    background-color: #ffe6e6;
+  }
+  
